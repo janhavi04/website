@@ -34,8 +34,13 @@ p{
 }
 a{
   color: #11999E;
+  margin: 10px 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
 }
-
+a:hover{
+  color: #EAF6F6;
+}
 hr{
   border: dotted #EAF6F6 6px;
   border-bottom:none ;
@@ -51,6 +56,8 @@ hr{
   margin: 100px 0;
 }
 .bottom-container{
+  background-color: #66BFBF;
+  padding: 10px 0 5px;
  
 }
 .skill-row{
@@ -58,7 +65,7 @@ hr{
   margin: 100px auto 100px auto;
   text-align: left;
   text-align: left;
-  line-height: 2;
+  line-height: 1;
 }
 .pro{
   text-decoration: underline;
@@ -123,4 +130,10 @@ hr{
   background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
   background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
   text-decoration: none;
+}
+
+.copyright{
+  color:#EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
